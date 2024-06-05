@@ -11,15 +11,20 @@ int main()
     setlocale(0, "");
 
     bool IS_SORT = true;
-    bool INIT_FROM_FILE = false;
+    bool INIT_FROM_FILE = true;
 
     const string PATH = "D:\\СИБСТРИН ИНФА\\семестр6\\2324, Теория информации, данные, знания, 12 (экзамен, заоч. (5, 6 сем.) (310а-з, 310з гр.) )\\Лабораторная работа №2\\";
-    const string INPUT = "7. Пушкин Пиковая дама.txt";
+    const string INPUT = "17. Куприн Гранатовый браслет.txt";
+
+    //const string PATH = "D:\\СИБСТРИН ИНФА\\семестр6\\2324, Теория информации, данные, знания, 12 (экзамен, заоч. (5, 6 сем.) (310а - з, 310з гр.))\\Лабораторная работа №3\\";
+    //const string INPUT = "7.txt";
 
     const string INIT_TEXT = "\"Ларионов Никита Юрьевич\" выполняет задание по дисциплине: Теория информации, данные, знания.";
 
     string pathin = PATH + INPUT; //"input.txt";
     string pathout = PATH + "output_" + INPUT;
+
+    cout << pathin << "\n";
 
     struct Sym {
     public:
